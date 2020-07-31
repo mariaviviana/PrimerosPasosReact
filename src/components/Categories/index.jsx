@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "../Card";
+import Carrousel from "../Carrousel";
 
 class Category extends Component {
   constructor(props) {
@@ -42,13 +43,7 @@ class Category extends Component {
     const { products = [] } = this.state;
     return (
       <Card title="Categorias">
-        <ul>
-          {products.map((prod, i) => (
-            <li key={prod + i}> 
-            <img height="50" src={`http://localhost:3001${prod.image}`}/> 
-            </li>
-          ))}
-        </ul>
+          <Carrousel fotos={products} />
         <>
           <div className="card-body">
             <div className="row">
