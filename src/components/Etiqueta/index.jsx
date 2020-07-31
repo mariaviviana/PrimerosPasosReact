@@ -1,10 +1,11 @@
 import React from "react";
+import './index.css';
 
 function Etiqueta({ children, title, amount, icon, color }) {
   return (
     <div className="row">
       <div className="col-md-12 mb-12">
-      <div className={"card border-left-primary shadow h-100 py-2 " + color}>
+      <div className={"etiqueta card border-left-primary shadow h-100 py-2 " + color}>
         <div className="card-body">
           <div className="row no-gutters align-items-center">
             <div className="col mr-2">

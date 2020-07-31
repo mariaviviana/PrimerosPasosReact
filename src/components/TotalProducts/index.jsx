@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Card";
 
-function LastProduct() {
+function TotalProducts() {
   return (
     <Card title="Productos por categoria">
       <>
@@ -23,4 +23,4 @@ function LastProduct() {
     </Card>
   );
 }
-export default LastProduct;
+export default TotalProducts;
