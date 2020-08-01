@@ -50,7 +50,6 @@ class Category extends Component {
               <div className="col-lg-6 mb-12">
                 <div
                   onClick={() => {
-                    debugger
                     this.onClickRemeras()
                   }}
                   className="card bg-info text-white shadow"
