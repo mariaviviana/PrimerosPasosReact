@@ -7,7 +7,7 @@ function Carrousel(props) {
       class="carousel slide"
       data-ride="carousel"
     >
-      <div className="carousel-inner">
+    <div className="carousel-inner">
         <div className="carousel-item active">
           {props.fotos.map((prod) => (
             <div class="carousel-item">
@@ -20,7 +20,7 @@ function Carrousel(props) {
             </div>
           ))}
         </div>
-      </div>
+   </div>
     </div>
   );
 }
